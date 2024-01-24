@@ -1,5 +1,35 @@
+.container-text{
+  display: inline-block;
+}
+.ani-text{
+  font-size: 2em;
+  letter-spacing: 10px;
+  font-weight: bolder;
+  border-right: 5px solid;
+  width: 100%;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+           typing 2s steps(30),
+           cursor .4s step-end infinite alternate;
+   
+}
+
+/*cursor blinking*/
+@keyframes cursor {
+  50% {border-color: transparent }
+  
+}
+
+/* typing effect */
+@keyframes typing {
+  from {width: 0}
+  
+}
+
 .second{
-    height:380px;
+    height:430px;
     background-color: black;
     background-position: right;
     background-size: 100%;
